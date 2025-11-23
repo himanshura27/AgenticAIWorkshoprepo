@@ -1,0 +1,12 @@
+prefix=c:/AgenticAIWorkshop/venv/Library
+exec_prefix=c:/AgenticAIWorkshop/venv/Library
+libdir=c:/AgenticAIWorkshop/venv/Library/lib
+includedir=c:/AgenticAIWorkshop/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
